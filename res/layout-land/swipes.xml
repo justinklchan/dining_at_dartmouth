@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:layout_gravity="center"
+android:background="@color/dark_green">
+
+	<LinearLayout
+	    android:id="@+id/fragment_swipes_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal" >
+	
+	    <LinearLayout
+	    android:id="@+id/fragment_swipes_container2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:layout_weight="0.5">
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@+string/swipes_left"
+		    android:textColor="@color/white"
+		    android:gravity = "center_horizontal"
+		    android:textSize="40sp" 
+	    	android:layout_marginBottom="5sp" />
+
+		<TextView
+		    android:id="@+id/swipes"
+		    android:layout_width="170sp"
+		    android:layout_height="105sp"
+		    android:background="@drawable/back"
+		    android:gravity="center"
+		    android:textColor="@color/white"
+		    android:textSize="30sp" />
+		</LinearLayout>
+		
+		<LinearLayout
+	    android:id="@+id/fragment_swipes_container3"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:layout_weight="0.5">
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@+string/dba_left"
+			android:textColor="@color/white"
+		    android:gravity = "center"
+		    android:textSize="40sp"
+	    	android:layout_marginBottom="5sp"    />
+		
+		<TextView
+		    android:id="@+id/dba"
+		    android:layout_width="170sp"
+		    android:layout_height="105sp"
+		    android:gravity = "center"
+		    android:textColor="@color/white"
+		    android:textSize="30sp"
+		    android:background="@drawable/back" />
+		</LinearLayout>
+ 	</LinearLayout>
+</LinearLayout>

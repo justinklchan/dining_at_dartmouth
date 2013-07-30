@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">D@D</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ui_tab_hours_title">Hours</string>
+    <string name="ui_tab_menu_title">Menu</string>
+    <string name="ui_tab_swipes_title">Swipes</string>
+    <string name="ui_tab_totals_title">Totals</string>
+    <string name="ui_tab_more_title">More</string>
+    <string name="ui_tab_preference_title">Preferences</string>
+    <string name="dba_left"><b>DBA Left</b></string>
+    <string name="refresh"><b>Refresh</b></string>
+    <string name="swipes_left"><b>Swipes Left</b></string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="topsideLabel">Topside</string>
+    <string name="kafLabel">King Arthur Flour</string>
+    <string name="hopLabel">The Hop</string>
+    <string name="collisLabel">Collis</string>
+    <string name="novackLabel">Novack</string>
+    <string name="ewLabel">EW Snack Bar</string>
+    <string name="focoLabel">Foco</string>
+    <string name="whatToEat"><b>What Can I Eat?</b></string>
+    <string name="commonsLabel"><a href="http://www.dartmouth.edu/dining/53commons">\'53 Commons</a></string>
+    <string name="menusLabel"><a href="http://nutrition.dartmouth.edu:8088">Full Menus with Nutritional Information</a></string>
+    <string name="collisCafeLabel"><a href="http://www.dartmouth.edu/dining/locations/collis.html">Collis Cafe</a></string>
+    <string name="novackCafeLabel"><a href="http://www.dartmouth.edu/dining/locations/novack.html">Novack Cafe</a></string>
+    <string name="titleLabel"><b>Where Can I Eat?</b></string>
+    <string name="ui_settings_email_title">Email:</string>
+    <string name="ui_settings_password_title">Password:</string>
+    <string name="delete">Delete</string>
+	<string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>
